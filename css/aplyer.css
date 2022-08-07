@@ -8,11 +8,20 @@
 #aplyermini:focus .aplayer-body {
 	left: 0px !important;
 } */
-
+@media screen and (max-width: 480px) {
+	#aplyermini {
+		display: none;
+	}
+}
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
 	left: -66px !important;
 }
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
 	left: 0 !important;
+}
+@media screen and (max-width: 480px) {
+	#aplyermini {
+		display: none;
+	}
 }
