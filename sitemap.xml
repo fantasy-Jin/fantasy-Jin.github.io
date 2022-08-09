@@ -249,20 +249,6 @@
   </url>
   
   <url>
-    <loc>http://fantasy06.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-08-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://fantasy06.github.io/tags/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2022-08-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://fantasy06.github.io/tags/Github/</loc>
     <lastmod>2022-08-09</lastmod>
     <changefreq>daily</changefreq>
@@ -271,6 +257,20 @@
   
   <url>
     <loc>http://fantasy06.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2022-08-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://fantasy06.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-08-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://fantasy06.github.io/tags/%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-08-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
