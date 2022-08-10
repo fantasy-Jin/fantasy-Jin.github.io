@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>http://fantasy06.github.io/List/index.html</loc>
+    <loc>http://fantasy06.github.io/404.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>http://fantasy06.github.io/404.html</loc>
+    <loc>http://fantasy06.github.io/List/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -235,20 +235,6 @@
 
   
   <url>
-    <loc>http://fantasy06.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-08-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://fantasy06.github.io/tags/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2022-08-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://fantasy06.github.io/tags/Hexo/</loc>
     <lastmod>2022-08-10</lastmod>
     <changefreq>daily</changefreq>
@@ -257,6 +243,20 @@
   
   <url>
     <loc>http://fantasy06.github.io/tags/%E6%B8%B2%E6%9F%93%E7%BB%95%E8%BF%87/</loc>
+    <lastmod>2022-08-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://fantasy06.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-08-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://fantasy06.github.io/tags/%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -293,14 +293,14 @@
 
   
   <url>
-    <loc>http://fantasy06.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/</loc>
+    <loc>http://fantasy06.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/</loc>
     <lastmod>2022-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://fantasy06.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/</loc>
+    <loc>http://fantasy06.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/</loc>
     <lastmod>2022-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
