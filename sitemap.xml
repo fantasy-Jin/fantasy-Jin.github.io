@@ -4,7 +4,14 @@
   <url>
     <loc>https://blog.luckjin.cool/posts/b08fe5f9.html</loc>
     
-    <lastmod>2022-08-12</lastmod>
+    <lastmod>2022-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.luckjin.cool/bber/index.html</loc>
+    
+    <lastmod>2022-08-13</lastmod>
     
   </url>
   
@@ -59,13 +66,6 @@
   
   <url>
     <loc>https://blog.luckjin.cool/List/music/index.html</loc>
-    
-    <lastmod>2022-08-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.luckjin.cool/bber/index.html</loc>
     
     <lastmod>2022-08-09</lastmod>
     
@@ -263,14 +263,14 @@
   </url>
   
   <url>
-    <loc>https://blog.luckjin.cool/tags/node-js/</loc>
+    <loc>https://blog.luckjin.cool/tags/%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.luckjin.cool/tags/%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://blog.luckjin.cool/tags/node-js/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
