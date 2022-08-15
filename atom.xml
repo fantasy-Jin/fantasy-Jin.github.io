@@ -6,7 +6,7 @@
   <link href="https://blog.luckjin.cool/atom.xml" rel="self"/>
   
   <link href="https://blog.luckjin.cool/"/>
-  <updated>2022-08-14T14:48:55.956Z</updated>
+  <updated>2022-08-15T15:41:27.987Z</updated>
   <id>https://blog.luckjin.cool/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue的基础学习</title>
+    <link href="https://blog.luckjin.cool/posts/eb3fbbca.html"/>
+    <id>https://blog.luckjin.cool/posts/eb3fbbca.html</id>
+    <published>2022-08-15T14:38:54.000Z</published>
+    <updated>2022-08-15T15:41:27.987Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vue-简介"><a href="#vue-简介" class="headerlink" title="vue 简介"></a>vue 简介</h2>]]></content>
+    
+    
+    <summary type="html">学习 vue 的基本使用与 vue 的指令</summary>
+    
+    
+    
+    <category term="前端篇" scheme="https://blog.luckjin.cool/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/"/>
+    
+    
+    <category term="前端" scheme="https://blog.luckjin.cool/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="笔记" scheme="https://blog.luckjin.cool/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack基础</title>
