@@ -11123,7 +11123,7 @@ li.card-archive-list-item {
   transform: scale(1);
 }
 #aside-content .aside-list > .aside-list-item:not(:last-child) {
-  border-bottom: 0 dashed var(--anzhiyu-background) !important;
+  border-bottom: 1px solid #f5f5f5 !important;
 }
 #aside-content .aside-list > .aside-list-item .thumbnail {
   border-radius: var(--anzhiyu-border-radius);
