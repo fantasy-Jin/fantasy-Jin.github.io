@@ -1,0 +1,8 @@
+.workSituationImg{
+  display: none !important;
+}
+#post-firstinfo .meta-firstline .article-meta__tags{
+  opacity: 1;
+  color: #eee;
+
+}
