@@ -6,3 +6,7 @@
   color: #eee;
 
 }
+@font-face{
+  font-family: 'MapleMono';
+  src: url('/font/MapleMono-Regular.woff2');   
+}
