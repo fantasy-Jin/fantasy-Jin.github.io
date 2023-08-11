@@ -1,3 +1,4 @@
+https://blog.luckjin.top/common/maven/
 https://blog.luckjin.top/java/java-servlet/
 https://blog.luckjin.top/java/JDBC/
 https://blog.luckjin.top/java/java%E6%96%B0%E7%89%B9%E5%BE%81/

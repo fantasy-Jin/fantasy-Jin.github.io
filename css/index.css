@@ -2296,14 +2296,14 @@ blockquote > :last-child {
   }
 }
 :root {
-  --hl-color: #eff;
-  --hl-bg: #212121;
-  --hltools-bg: #1c1c1c;
-  --hltools-color: rgba(238,255,255,0.8);
-  --hlnumber-bg: #212121;
-  --hlnumber-color: rgba(238,255,255,0.5);
-  --hlscrollbar-bg: #353535;
-  --hlexpand-bg: linear-gradient(180deg, rgba(33,33,33,0.6), rgba(33,33,33,0.9));
+  --hl-color: #8f93a2;
+  --hl-bg: #0f111a;
+  --hltools-bg: #0b0d14;
+  --hltools-color: #8f93a2;
+  --hlnumber-bg: #0f111a;
+  --hlnumber-color: rgba(143,147,162,0.5);
+  --hlscrollbar-bg: #1e2234;
+  --hlexpand-bg: linear-gradient(180deg, rgba(15,17,26,0.6), rgba(15,17,26,0.9));
 }
 #article-container pre[class*='language-'].line-numbers {
   position: relative;
@@ -2344,83 +2344,79 @@ blockquote > :last-child {
   content: counter(linenumber);
   text-align: right;
 }
-pre[class*='language-'] .token.comment,
-pre[class*='language-'] .token.prolog,
-pre[class*='language-'] .token.doctype,
-pre[class*='language-'] .token.cdata {
-  color: #7c7c7c;
-}
-pre[class*='language-'] .token.punctuation {
-  color: #c5c8c6;
+pre[class*='language-'].language-css > code,
+pre[class*='language-'].language-sass > code,
+pre[class*='language-'].language-scss > code {
+  color: #fd9170 !important;
 }
 pre[class*='language-'] .namespace {
   opacity: 0.7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
 }
-pre[class*='language-'] .token.property,
-pre[class*='language-'] .token.keyword,
-pre[class*='language-'] .token.tag {
-  color: #96cbfe;
-}
-pre[class*='language-'] .token.class-name {
-  color: #ffffb6;
-}
-pre[class*='language-'] .token.boolean,
-pre[class*='language-'] .token.constant {
-  color: #9c9;
-}
-pre[class*='language-'] .token.symbol,
-pre[class*='language-'] .token.deleted {
-  color: #f92672;
-}
-pre[class*='language-'] .token.number {
-  color: #ff73fd;
-}
-pre[class*='language-'] .token.selector,
-pre[class*='language-'] .token.attr-name,
-pre[class*='language-'] .token.string,
-pre[class*='language-'] .token.char,
-pre[class*='language-'] .token.builtin,
-pre[class*='language-'] .token.inserted {
-  color: #a8ff60;
-}
-pre[class*='language-'] .token.variable {
-  color: #c6c5fe;
-}
-pre[class*='language-'] .token.operator {
-  color: #ededed;
-}
-pre[class*='language-'] .token.entity {
-  color: #ffffb6;
-  cursor: help;
-}
-pre[class*='language-'] .token.url {
-  color: #96cbfe;
-}
-pre[class*='language-'] .language-css .token.string,
-pre[class*='language-'] .style .token.string {
-  color: #87c38a;
-}
 pre[class*='language-'] .token.atrule,
-pre[class*='language-'] .token.attr-value {
-  color: #f9ee98;
-}
+pre[class*='language-'] .token.symbol,
+pre[class*='language-'] .token.constant,
+pre[class*='language-'] .token.boolean,
 pre[class*='language-'] .token.function {
-  color: #dad085;
+  color: #c792ea;
 }
+pre[class*='language-'] .token.attr-name,
+pre[class*='language-'] .token.builtin,
+pre[class*='language-'] .token.class {
+  color: #ffcb6b;
+}
+pre[class*='language-'] .token.attr-value,
+pre[class*='language-'] .token.attribute,
+pre[class*='language-'] .token.pseudo-class,
+pre[class*='language-'] .token.pseudo-element,
+pre[class*='language-'] .token.string {
+  color: #c3e88d;
+}
+pre[class*='language-'] .token.cdata,
+pre[class*='language-'] .token.property,
+pre[class*='language-'] .token.char,
+pre[class*='language-'] .token.inserted {
+  color: #80cbc4;
+}
+pre[class*='language-'] .token.class-name,
+pre[class*='language-'] .token.color,
+pre[class*='language-'] .token.hexcode,
 pre[class*='language-'] .token.regex {
-  color: #e9c062;
+  color: #f2ff00;
 }
-pre[class*='language-'] .token.important {
-  color: #fd971f;
+pre[class*='language-'] .token.comment,
+pre[class*='language-'] .token.prolog,
+pre[class*='language-'] .token.doctype {
+  color: #546e7a;
 }
-pre[class*='language-'] .token.important,
-pre[class*='language-'] .token.bold {
+pre[class*='language-'] .token.deleted,
+pre[class*='language-'] .token.variable,
+pre[class*='language-'] .token.entity,
+pre[class*='language-'] .token.selector,
+pre[class*='language-'] .token.tag,
+pre[class*='language-'] .token.unit {
+  color: #f07178;
+}
+pre[class*='language-'] .token.id {
+  color: #c792ea;
   font-weight: bold;
 }
-pre[class*='language-'] .token.italic {
+pre[class*='language-'] .token.important {
+  color: #c792ea;
+  font-weight: bold;
+}
+pre[class*='language-'] .token.keyword {
+  color: #c792ea;
   font-style: italic;
+}
+pre[class*='language-'] .token.number,
+pre[class*='language-'] .token.url {
+  color: #fd9170;
+}
+pre[class*='language-'] .token.operator,
+pre[class*='language-'] .token.punctuation {
+  color: #89ddff;
 }
 #article-container pre[class*='language-'] {
   scrollbar-color: var(--hlscrollbar-bg) transparent;
@@ -2589,48 +2585,6 @@ pre[class*='language-'] .token.italic {
 }
 #article-container .gist table td {
   border: none;
-}
-#article-container figure.highlight {
-  margin: 0 0 24px;
-  border-radius: 7px;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
-  -webkit-transform: translateZ(0);
-}
-#article-container figure.highlight .highlight-tools:after {
-  position: absolute;
-  left: 14px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #fc625d;
-  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: ' ';
-}
-#article-container figure.highlight .highlight-tools .expand {
-  right: 0;
-}
-#article-container figure.highlight .highlight-tools .expand.closed {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: rotate(90deg) !important;
-  -moz-transform: rotate(90deg) !important;
-  -o-transform: rotate(90deg) !important;
-  -ms-transform: rotate(90deg) !important;
-  transform: rotate(90deg) !important;
-}
-#article-container figure.highlight .highlight-tools .expand ~ .copy-notice {
-  right: 3.45em;
-}
-#article-container figure.highlight .highlight-tools .expand ~ .copy-button {
-  right: 2.1em;
-}
-#article-container figure.highlight .highlight-tools .code-lang {
-  left: 75px;
 }
 #article-container .code-expand-btn {
   position: absolute;
