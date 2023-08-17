@@ -1,3 +1,4 @@
+https://blog.luckjin.top/java/mybatis/
 https://blog.luckjin.top/common/maven/
 https://blog.luckjin.top/java/java-servlet/
 https://blog.luckjin.top/java/JDBC/

@@ -10,3 +10,6 @@
   font-family: 'MapleMono';
   src: url('/font/MapleMono-Regular.woff2');   
 }
+#travellings_button{
+  display: none !important;
+}
