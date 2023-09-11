@@ -13,3 +13,6 @@
 #travellings_button{
   display: none !important;
 }
+#article-container header {
+display: none !important;
+}
