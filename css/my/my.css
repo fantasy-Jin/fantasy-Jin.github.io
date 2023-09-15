@@ -16,3 +16,24 @@
 #article-container header {
 display: none !important;
 }
+.card-widget{
+  margin-bottom: 10px;
+}
+
+@media screen and (max-height: 800px) {
+  #console .console-card-group {
+    zoom: .8 !important;
+  }
+
+  /* #consoleMusic {
+    zoom: .8 !important;
+  }
+
+  #consoleCommentBarrage {
+    zoom: .8 !important;
+  }
+
+  body:has(#console.show) #nav-music {
+    zoom: .8 !important;
+  } */
+}
