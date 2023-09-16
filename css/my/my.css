@@ -22,18 +22,8 @@ display: none !important;
 
 @media screen and (max-height: 800px) {
   #console .console-card-group {
+    /* display: flex; */
     zoom: .8 !important;
   }
 
-  /* #consoleMusic {
-    zoom: .8 !important;
-  }
-
-  #consoleCommentBarrage {
-    zoom: .8 !important;
-  }
-
-  body:has(#console.show) #nav-music {
-    zoom: .8 !important;
-  } */
 }
